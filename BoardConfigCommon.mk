@@ -42,7 +42,7 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_EXFAT_DRIVER := sdfat
 
 # Security
-VENDOR_SECURITY_PATCH := 2019-02-01
+VENDOR_SECURITY_PATCH := 2019-03-01
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
@@ -84,4 +84,4 @@ BOARD_SECCOMP_POLICY += device/samsung/hero-common/seccomp
 
 # Inherit from the proprietary version
 -include vendor/samsung/hero-common/BoardConfigVendor.mk
--include vendor/samsung/bsp/BoardConfigVendor.mk
+-include vendor/seal/seal/BoardConfigVendor.mk
